@@ -14,6 +14,7 @@
 		9DF55CDD1F15C22600F7FB1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF55CDB1F15C22600F7FB1F /* LaunchScreen.storyboard */; };
 		9DF55CE81F15C22600F7FB1F /* AttributeStringSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF55CE71F15C22600F7FB1F /* AttributeStringSampleTests.swift */; };
 		9DF55CF31F15C22600F7FB1F /* AttributeStringSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF55CF21F15C22600F7FB1F /* AttributeStringSampleUITests.swift */; };
+		9DF55D011F15C29C00F7FB1F /* TextModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF55D001F15C29C00F7FB1F /* TextModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9DF55CEE1F15C22600F7FB1F /* AttributeStringSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttributeStringSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF55CF21F15C22600F7FB1F /* AttributeStringSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeStringSampleUITests.swift; sourceTree = "<group>"; };
 		9DF55CF41F15C22600F7FB1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF55D001F15C29C00F7FB1F /* TextModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextModel.swift; path = Model/TextModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				9DF55CD21F15C22600F7FB1F /* AppDelegate.swift */,
 				9DF55CD41F15C22600F7FB1F /* ViewController.swift */,
 				9DF55CD61F15C22600F7FB1F /* Main.storyboard */,
+				9DF55D021F15C2A700F7FB1F /* Model */,
 				9DF55CD91F15C22600F7FB1F /* Assets.xcassets */,
 				9DF55CDB1F15C22600F7FB1F /* LaunchScreen.storyboard */,
 				9DF55CDE1F15C22600F7FB1F /* Info.plist */,
@@ -123,6 +126,14 @@
 				9DF55CF41F15C22600F7FB1F /* Info.plist */,
 			);
 			path = AttributeStringSampleUITests;
+			sourceTree = "<group>";
+		};
+		9DF55D021F15C2A700F7FB1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DF55D001F15C29C00F7FB1F /* TextModel.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DF55D011F15C29C00F7FB1F /* TextModel.swift in Sources */,
 				9DF55CD51F15C22600F7FB1F /* ViewController.swift in Sources */,
 				9DF55CD31F15C22600F7FB1F /* AppDelegate.swift in Sources */,
 			);

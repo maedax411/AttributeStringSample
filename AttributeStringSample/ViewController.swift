@@ -1,25 +1,16 @@
-//
-//  ViewController.swift
-//  AttributeStringSample
-//
-//  Created by 前田 晃良 on 2017/07/12.
-//  Copyright © 2017年 d_na_ser. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textLabel: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        let textModel = TextModel()
+        textModel.setText(text: "食べっ子うあああああああああああああああああああああああああああああ")
+        textLabel.attributedText = textModel.attributeString
     }
-
 
 }
 
